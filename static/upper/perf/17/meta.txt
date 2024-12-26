@@ -1,0 +1,3 @@
+audio_path: /work/asap-dataset/Beethoven/Piano_Sonatas/16-1/Woo05M.wav
+file_idx: 106
+chunk_idx: 14

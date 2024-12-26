@@ -1,0 +1,3 @@
+audio_path: /work/asap-dataset/Chopin/Etudes_op_25/12/LuA04M.wav
+file_idx: 150
+chunk_idx: 7

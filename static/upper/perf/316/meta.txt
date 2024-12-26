@@ -1,0 +1,3 @@
+audio_path: /work/yamahasax/20200131_AltoSax_Suzuki-Akio-san_Funk/wav/96kHz_24bit/Expressive/On_Mic/Sax_Expressive_On_Sidewinder.wav
+file_idx: 57
+chunk_idx: 6
