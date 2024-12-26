@@ -1,0 +1,3 @@
+audio_path: /work/yamahasax/20200724_AltoSax_Suzuki-Kei-san_BossaNova/wav/96kHz_24bit/No_expression/Sax_No_expression_On_No_More_Blues.wav
+file_idx: 61
+chunk_idx: 2

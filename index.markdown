@@ -29,8 +29,6 @@ For more details, refer to the manuscript:
 
 ---
 
-## Demo 
-
 <style>
   table {
     width: 150%; /* Expands the table width */
@@ -64,69 +62,41 @@ For more details, refer to the manuscript:
   }
 </style>
 
-### 1. Good Outputs (Upper Bound)
+## 1. Good Outputs (Perceptual Upper Bound)
 
-#### Synthesis
+### **Synthesis**
 <table>
   <tr>
-    <th style="width: 30%;">Input MIDI</th>
+    <th style="width: 30%;">Input Score MIDI</th>
     <th style="width: 20%;">Text Prompt 1</th>
     <th style="width: 30%;">Output 1</th>
 
   </tr>
   
   <tr>
-    <td><audio controls>
-  <source src="static/tw1wc.wav" type="audio/wav"></audio>
-    <br>
-    <em>Title of the Piece</em>
-  </td>
+    <td><audio controls><source src="static/tw1wc.wav" type="audio/wav"></audio><br>
+    <em>Title of the Piece</em></td>
     <td>Synthesis</td>
     <td><audio controls><source src="static/tw1wc.wav" type="audio/wav"></audio></td>
   </tr>
   <tr>
-    <td><audio controls>
-  <source src="static/tw1wc.wav" type="audio/wav"></audio>
-    <br>
-    <em>Title of the Piece</em>
-  </td>
+    <td><audio controls><source src="static/tw1wc.wav" type="audio/wav"></audio><br>
+    <em>Title of the Piece</em></td>
     <td>Synthesis</td>
     <td><audio controls><source src="static/tw1wc.wav" type="audio/wav"></audio></td>
   </tr>
   <tr>
-    <td><audio controls>
-  <source src="static/tw1wc.wav" type="audio/wav"></audio>
-    <br>
-    <em>Title of the Piece</em>
-  </td>
+    <td><audio controls><source src="static/tw1wc.wav" type="audio/wav"></audio><br>
+    <em>Title of the Piece</em></td>
     <td>Synthesis</td>
     <td><audio controls><source src="static/tw1wc.wav" type="audio/wav"></audio></td>
   </tr>
-  <tr>
-    <td><audio controls>
-  <source src="static/tw1wc.wav" type="audio/wav"></audio>
-    <br>
-    <em>Title of the Piece</em>
-  </td>
-    <td>Synthesis</td>
-    <td><audio controls><source src="static/tw1wc.wav" type="audio/wav"></audio></td>
-  </tr>
-  <tr>
-    <td><audio controls>
-  <source src="static/tw1wc.wav" type="audio/wav"></audio>
-    <br>
-    <em>Title of the Piece</em>
-  </td>
-    <td>Synthesis</td>
-    <td><audio controls><source src="static/tw1wc.wav" type="audio/wav"></audio></td>
-  </tr>
-  <!-- Add 4 more rows here for synthesis -->
 </table>
 
-#### Synthesis with Speed Augmentation
+### **Synthesis with Speed Augmentation**
 <table>
   <tr>
-    <th style="width: 24%;">Input MIDI</th>
+    <th style="width: 24%;">Input Score MIDI</th>
     <th style="width: 14%;">Text Prompt 1</th>
     <th style="width: 24%;">Output 1</th>
     <th style="width: 14%;">Text Prompt 2</th>
@@ -143,10 +113,10 @@ For more details, refer to the manuscript:
   <!-- Add 4 more rows here -->
 </table>
 
-#### Expressive Performance
+### **Expressive Performance**
 <table>
   <tr>
-    <th style="width: 24%;">Input MIDI</th>
+    <th style="width: 24%;">Input Score MIDI</th>
     <th style="width: 14%;">Text Prompt 1</th>
     <th style="width: 24%;">Output 1</th>
     <th style="width: 14%;">Text Prompt 2</th>
@@ -154,66 +124,107 @@ For more details, refer to the manuscript:
   </tr>
   <tr>
     <td><audio controls><source src="static/upper/perf/5/synthmid.wav" type="audio/wav"></audio><br>
-    <em>Chopin Op.25 No.12</em></td>
+    <em>Chopin Piano Etude Op.25 No.12</em></td>
     <td>faithfully matching tempo, Chopin, Etudes_op_25, 12, expressive performance</td>
     <td><audio controls><source src="static/upper/perf/5/output.wav" type="audio/wav"></audio></td>
-    <td> </td>
-    <td><audio controls><source src="static/example3-output2.wav" type="audio/wav"></audio></td>
+    <td>considerably slower, expressive performance, Chopin</td>
+    <td><audio controls><source src="static/upper/perf/5/output2.wav" type="audio/wav"></audio></td>
   </tr>
   <tr>
     <td><audio controls><source src="static/upper/perf/477/synthmid.wav" type="audio/wav"></audio><br>
     <em>pN1wc</em></td>
     <td>Guitar, Expressive performance, in line with the score's tempo</td>
     <td><audio controls><source src="static/upper/perf/477/output.wav" type="audio/wav"></audio></td>
-    <td>Add subtle rubato</td>
-    <td><audio controls><source src="static/example3-output2.wav" type="audio/wav"></audio></td>
+    <td>guitar expressive performance, a bit faster than score</td>
+    <td><audio controls><source src="static/upper/perf/477/output2.wav" type="audio/wav"></audio></td>
   </tr>
   <tr>
     <td><audio controls><source src="static/upper/perf/17/synthmid.wav" type="audio/wav"></audio><br>
-    <em>Beethoven Sonata No.16 Mvt.1</em></td>
+    <em>Beethoven Piano Sonata No.16 Mvt.1</em></td>
     <td>Beethoven, faithfully matching, Piano, expressive performance</td>
     <td><audio controls><source src="static/upper/perf/17/output.wav" type="audio/wav"></audio></td>
-    <td>Add subtle rubato</td>
-    <td><audio controls><source src="static/example3-output2.wav" type="audio/wav"></audio></td>
+    <td>expressive, a bit faster</td>
+    <td><audio controls><source src="static/upper/perf/17/output2.wav" type="audio/wav"></audio></td>
   </tr>
   <tr>
     <td><audio controls><source src="static/upper/perf/316/synthmid.wav" type="audio/wav"></audio><br>
-    <em>Sidewinder</em></td>
+    <em>Sidewinder (Sax funk)</em></td>
     <td>at the same tempo, Expressive playings</td>
     <td><audio controls><source src="static/upper/perf/316/output.wav" type="audio/wav"></audio></td>
-    <td>Add subtle rubato</td>
-    <td><audio controls><source src="static/example3-output2.wav" type="audio/wav"></audio></td>
+    <td>Saxophone, no expression, at the same tempo</td>
+    <td><audio controls><source src="static/upper/perf/316/output2.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+    <td><audio controls><source src="static/upper/perf/263/synthmid.wav" type="audio/wav"></audio><br>
+    <em>Bach Violin Sonata BWV1003, Mvt.2</em></td>
+    <td>bwv1003, just under the score’s tempo, Expressive performance</td>
+    <td><audio controls><source src="static/upper/perf/263/output.wav" type="audio/wav"></audio></td>
+    <td>Violin, expressive performance,  faster than score</td>
+    <td><audio controls><source src="static/upper/perf/263/output2.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+    <td><audio controls><source src="static/upper/perf/181/synthmid.wav" type="audio/wav"></audio><br>
+    <em>Haydn String Quartet No 53 in D major</em></td>
+    <td>Expressive performance, at the original speed</td>
+    <td><audio controls><source src="static/upper/perf/181/output.wav" type="audio/wav"></audio></td>
+    <td>String Quartet, Expressive performance, much slower, Haydn</td>
+    <td><audio controls><source src="static/upper/perf/181/output2.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+    <td><audio controls><source src="static/upper/perf/352/synthmid.wav" type="audio/wav"></audio><br>
+    <em>3w1wc</em></td>
+    <td>Expressive performance, in line with score's tempo</td>
+    <td><audio controls><source src="static/upper/perf/352/output.wav" type="audio/wav"></audio></td>
+    <td>expressive performance, slower than score, guitar</td>
+    <td><audio controls><source src="static/upper/perf/352/output2.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+    <td><audio controls><source src="static/upper/perf/96/synthmid.wav" type="audio/wav"></audio><br>
+    <em>No more blues (Sax BossaNova)</em></td>
+    <td>Performance with no expression, in line with the score's tempo, Saxophone</td>
+    <td><audio controls><source src="static/upper/perf/96/output.wav" type="audio/wav"></audio></td>
+    <td>saxophone, expressive playing, a bit faster</td>
+    <td><audio controls><source src="static/upper/perf/96/output2.wav" type="audio/wav"></audio></td>
   </tr>
   <!-- Add 4 more rows here -->
 </table>
 
-#### Performance with Mistakes
+### **Performance with Mistakes**
 <table>
   <tr>
-    <th>Input MIDI</th>
-    <th>Text Prompt 1</th>
-    <th>Output 1</th>
-    <th>Text Prompt 2</th>
-    <th>Output 2</th>
+    <th style="width: 30%;">Input Score MIDI</th>
+    <th style="width: 20%;">Text Prompt 1</th>
+    <th style="width: 30%;">Output 1</th>
   </tr>
   <tr>
-    <td><audio controls><source src="static/example4-input.mid" type="audio/midi"></audio></td>
-    <td>Introduce timing mistakes</td>
-    <td><audio controls><source src="static/example4-output1.wav" type="audio/wav"></audio></td>
-    <td>Introduce missing notes</td>
-    <td><audio controls><source src="static/example4-output2.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="static/upper/mistakes/bugmuller1/midi_synthesized.wav" type="audio/wav"></audio><br>
+    <em>Burgmuller No.1</em></td>
+    <td>Play like a student, at the same tempo</td>
+    <td><audio controls><source src="static/upper/mistakes/bugmuller1/output.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+    <td><audio controls><source src="static/upper/mistakes/115/synthmid.wav" type="audio/wav"></audio><br>
+    <em>Beethoven Piano Sonata No.18 Mvt.1</em></td>
+    <td>Expressive performance with mistakes, same speed</td>
+    <td><audio controls><source src="static/upper/mistakes/115/output.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+    <td><audio controls><source src="static/tw1wc.wav" type="audio/wav"></audio><br>
+    <em>Title of the Piece</em></td>
+    <td> </td>
+    <td><audio controls><source src="static/tw1wc.wav" type="audio/wav"></audio></td>
   </tr>
   <!-- Add 4 more rows here -->
 </table>
 
-#### Performance with Directions
+### **Performance with Directions**
 <table>
   <tr>
-    <th>Input MIDI</th>
-    <th>Text Prompt 1</th>
-    <th>Output 1</th>
-    <th>Text Prompt 2</th>
-    <th>Output 2</th>
+    <th style="width: 24%;">Input Score MIDI</th>
+    <th style="width: 14%;">Text Prompt 1</th>
+    <th style="width: 24%;">Output 1</th>
+    <th style="width: 14%;">Text Prompt 2</th>
+    <th style="width: 24%;">Output 2</th>
   </tr>
   <tr>
     <td><audio controls><source src="static/example5-input.mid" type="audio/midi"></audio></td>
@@ -227,7 +238,7 @@ For more details, refer to the manuscript:
 
 ---
 
-### 2. Not Very Good Outputs (Lower Bound)
+### 2. Not-Very-Good Outputs (Perceptual Lower Bound)
 
 <!-- Repeat the same structure for "Not Very Good Outputs" -->
 

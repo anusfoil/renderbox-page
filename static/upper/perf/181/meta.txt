@@ -1,0 +1,3 @@
+audio_path: /work/musicnet/test_data/2106.wav
+file_idx: 7
+chunk_idx: 13

@@ -1,0 +1,3 @@
+audio_path: /work/asap-dataset/Beethoven/Piano_Sonatas/18-1/Levitsky05M.wav
+file_idx: 111
+chunk_idx: 4
