@@ -1,0 +1,3 @@
+audio_path: /work/ATEPP/../ATEPP-audio/Johann_Sebastian_Bach/Das_Wohltemperierte_Klavier_Book2/Book_2,_BWV_870-893:_Fugue_in_D_minor_BWV_875/1.mp3
+file_idx: 84
+chunk_idx: 1

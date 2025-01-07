@@ -1,3 +1,0 @@
-audio_path: /work/musicnet/test_data/2382.wav
-file_idx: 2
-chunk_idx: 5

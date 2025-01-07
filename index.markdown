@@ -62,7 +62,7 @@ For more details, refer to the manuscript:
   }
 </style>
 
-## 1. Good Outputs (Perceptual Upper Bound)
+##  Outputs
 
 ### **Synthesis**
 <table>
@@ -74,26 +74,26 @@ For more details, refer to the manuscript:
   </tr>
   
   <tr>
-    <td><audio controls><source src="static/tw1wc.wav" type="audio/wav"></audio><br>
-    <em>Title of the Piece</em></td>
+    <td><audio controls><source src="static/upper/synth/17/synthmid.wav" type="audio/wav"></audio><br>
+    <em>Bach BWV 876 Prelude</em></td>
     <td>Synthesis</td>
-    <td><audio controls><source src="static/tw1wc.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="static/upper/synth/17/output.wav" type="audio/wav"></audio></td>
   </tr>
   <tr>
-    <td><audio controls><source src="static/tw1wc.wav" type="audio/wav"></audio><br>
-    <em>Title of the Piece</em></td>
+    <td><audio controls><source src="static/upper/synth/107/synthmid.wav" type="audio/wav"></audio><br>
+    <em>Valse - Manuel Ponce </em></td>
     <td>Synthesis</td>
-    <td><audio controls><source src="static/tw1wc.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="static/upper/synth/107/output.wav" type="audio/wav"></audio></td>
   </tr>
   <tr>
-    <td><audio controls><source src="static/tw1wc.wav" type="audio/wav"></audio><br>
-    <em>Title of the Piece</em></td>
+    <td><audio controls><source src="static/upper/synth/bach02/midi_synthesized.wav" type="audio/wav"></audio><br>
+    <em>Bach BWV Violin Sonata 1002 Mvt.1</em></td>
     <td>Synthesis</td>
-    <td><audio controls><source src="static/tw1wc.wav" type="audio/wav"></audio></td>
+    <td><audio controls><source src="static/upper/synth/bach02/output.wav" type="audio/wav"></audio></td>
   </tr>
 </table>
 
-### **Synthesis with Speed Augmentation**
+### **Synthesis with Speed Augmentation (todo)**
 <table>
   <tr>
     <th style="width: 24%;">Input Score MIDI</th>
@@ -132,7 +132,7 @@ For more details, refer to the manuscript:
   </tr>
   <tr>
     <td><audio controls><source src="static/upper/perf/477/synthmid.wav" type="audio/wav"></audio><br>
-    <em>pN1wc</em></td>
+    <em>Malagueña de Isaac Albéniz</em></td>
     <td>Guitar, Expressive performance, in line with the score's tempo</td>
     <td><audio controls><source src="static/upper/perf/477/output.wav" type="audio/wav"></audio></td>
     <td>guitar expressive performance, a bit faster than score</td>
@@ -172,7 +172,7 @@ For more details, refer to the manuscript:
   </tr>
   <tr>
     <td><audio controls><source src="static/upper/perf/352/synthmid.wav" type="audio/wav"></audio><br>
-    <em>3w1wc</em></td>
+    <em>David Russell: Rondeña - Regino Sainz de la Maza</em></td>
     <td>Expressive performance, in line with score's tempo</td>
     <td><audio controls><source src="static/upper/perf/352/output.wav" type="audio/wav"></audio></td>
     <td>expressive performance, slower than score, guitar</td>
@@ -208,12 +208,12 @@ For more details, refer to the manuscript:
     <td>Expressive performance with mistakes, same speed</td>
     <td><audio controls><source src="static/upper/mistakes/115/output.wav" type="audio/wav"></audio></td>
   </tr>
-  <tr>
+  <!-- <tr>
     <td><audio controls><source src="static/tw1wc.wav" type="audio/wav"></audio><br>
     <em>Title of the Piece</em></td>
     <td> </td>
     <td><audio controls><source src="static/tw1wc.wav" type="audio/wav"></audio></td>
-  </tr>
+  </tr> -->
   <!-- Add 4 more rows here -->
 </table>
 
@@ -227,20 +227,73 @@ For more details, refer to the manuscript:
     <th style="width: 24%;">Output 2</th>
   </tr>
   <tr>
-    <td><audio controls><source src="static/example5-input.mid" type="audio/midi"></audio></td>
-    <td>Play in the style of Glenn Gould</td>
-    <td><audio controls><source src="static/example5-output1.wav" type="audio/wav"></audio></td>
-    <td>Play with a lyrical, expressive tone</td>
-    <td><audio controls><source src="static/example5-output2.wav" type="audio/wav"></audio></td>
+      <td><audio controls><source src="static/upper/perf_style/1/Gould/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <em>Beethoven Piano Sonata No.2 in A, Op.2 No.2, 3. Scherzo (Allegretto)</em></td>
+      <td>In the style of Glenn Gould</td>
+      <td><audio controls><source src="static/upper/perf_style/1/Gould/output.wav" type="audio/wav"></audio></td>
+      <td>In the style of Daniel Barenboim</td>
+      <td><audio controls><source src="static/upper/perf_style/1/Barenboim/output.wav" type="audio/wav"></audio></td>
   </tr>
+  <tr>
+      <td><audio controls><source src="static/upper/perf_style/10/Gieseking/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <em>Schubert Piano Sonata No.17 in D, D.850/3. Scherzo (Allegro_vivace)</em></td>
+      <td>In the style of Walter Gieseking</td>
+      <td><audio controls><source src="static/upper/perf_style/10/Gieseking/output.wav" type="audio/wav"></audio></td>
+      <td>In the style of Mikhail Pletnev</td>
+      <td><audio controls><source src="static/upper/perf_style/10/Pletnev/output.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+      <td><audio controls><source src="static/upper/perf_style/13/Hess/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <em>Beethoven Piano Sonata No.31 in A-Flat Major, Op.110: I. Moderato cantabile molto espressivo</em></td>
+      <td>In the style of Myra Hess</td>
+      <td><audio controls><source src="static/upper/perf_style/13/Hess/output.wav" type="audio/wav"></audio></td>
+      <td>In the style of Dinu Lipatti</td>
+      <td><audio controls><source src="static/upper/perf_style/13/Lipatti/output.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+      <td><audio controls><source src="static/upper/perf_style/4/Gould/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <em>Bach: Das Wohltemperierte Klavier Book 2: Fugue in D minor, BWV 875</em></td>
+      <td>In the style of Glenn Gould</td>
+      <td><audio controls><source src="static/upper/perf_style/4/Gould/output.wav" type="audio/wav"></audio></td>
+      <td>In the style of András Schiff</td>
+      <td><audio controls><source src="static/upper/perf_style/4/Schiff/output.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+      <td><audio controls><source src="static/upper/perf_style/7/Gulda/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <em>Mozart Piano Sonata No.17 in B-Flat Major, K.570: I. Allegro</em></td>
+      <td>In the style of Friedrich Gulda</td>
+      <td><audio controls><source src="static/upper/perf_style/7/Gulda/output.wav" type="audio/wav"></audio></td>
+      <td>In the style of Murray Perahia</td>
+      <td><audio controls><source src="static/upper/perf_style/7/Perahia/output.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+      <td><audio controls><source src="static/upper/perf_style/24/brisk_lively_light-hearted/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <em>Beethoven Piano Sonata No.31 in A-Flat Major, Op.110: I. Moderato cantabile molto espressivo</em></td>
+      <td>Brisk, lively, light-hearted</td>
+      <td><audio controls><source src="static/upper/perf_style/24/brisk_lively_light-hearted/output.wav" type="audio/wav"></audio></td>
+      <td>Slow, melancholic, with gravity</td>
+      <td><audio controls><source src="static/upper/perf_style/24/slow_melancholic_with gravity/output.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+      <td><audio controls><source src="static/upper/perf_style/32/fast_energetic_dynamic/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <em>Beethoven Piano Sonata No.27 in E Minor, Op.90: II. Nicht zu geschwind und sehr singbar vorgetragen</em></td>
+      <td>Fast, energetic, dynamic</td>
+      <td><audio controls><source src="static/upper/perf_style/32/fast_energetic_dynamic/output.wav" type="audio/wav"></audio></td>
+      <td>Slow, sad, clear phrasing</td>
+      <td><audio controls><source src="static/upper/perf_style/32/slow_sad_clear phrasing/output.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+      <td><audio controls><source src="static/upper/perf_style/33/hurried_rushed_chaotic/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <em>Mozart Piano Sonata No.18 in D Major, K.576: II. Adagio</em></td>
+      <td>Hurried, rushed, chaotic</td>
+      <td><audio controls><source src="static/upper/perf_style/33/hurried_rushed_chaotic/output.wav" type="audio/wav"></audio></td>
+      <td>Steady, deliberate, introspective</td>
+      <td><audio controls><source src="static/upper/perf_style/33/steady_deliberate_introspective/output.wav" type="audio/wav"></audio></td>
+  </tr>
+
+
   <!-- Add 4 more rows here -->
 </table>
-
----
-
-### 2. Not-Very-Good Outputs (Perceptual Lower Bound)
-
-<!-- Repeat the same structure for "Not Very Good Outputs" -->
 
 
 

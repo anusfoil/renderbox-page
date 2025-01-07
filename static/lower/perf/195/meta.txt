@@ -1,3 +1,0 @@
-audio_path: /work/bach-violin-dataset/bach-violin/./audio/isabella-stewart-gardner/karen-gomyo_bwv1006_mov2.wav
-file_idx: 16
-chunk_idx: 14

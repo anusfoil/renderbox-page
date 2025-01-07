@@ -1,0 +1,3 @@
+audio_path: /work/asap-dataset/Bach/Prelude/bwv_876/midi_score.wav
+file_idx: 36
+chunk_idx: 13

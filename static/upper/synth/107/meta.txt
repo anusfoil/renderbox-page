@@ -1,0 +1,3 @@
+audio_path: /work/gaps_v1/audio_score_synth/SV1wc.wav
+file_idx: 136
+chunk_idx: 7
