@@ -26,13 +26,19 @@ Our curriculum-based paradigm spans a wide spectrum of tasks, from plain synthes
 For more details, refer to the manuscript:
 [RenderBox: Expressive Performance Rendering with Text Control (PDF)](https://example-link-to-your-manuscript.pdf).
 
+<!-- figure on paper -->
+<div style="text-align: center;">
+  <img src="static/renderbox.png" alt="RenderBox" style="width: 80%; height: auto;">
+  <!-- <p><em>Overview of the RenderBox performance space</em></p> -->
+</div>
+
 
 ---
 
 <style>
   table {
-    width: 150%; /* Expands the table width */
-    margin-left: -150px;
+    width: 180%; /* Expands the table width */
+    margin-left: -300px;
     border-collapse: collapse;
     font-size: 12px; /* Globally smaller font size */
   }
@@ -62,7 +68,7 @@ For more details, refer to the manuscript:
   }
 </style>
 
-##  Outputs
+##  Outputs 🎵
 
 ### **Synthesis**
 <table>
