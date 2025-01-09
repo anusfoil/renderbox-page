@@ -93,7 +93,7 @@ For more details, refer to the manuscript:
   </tr>
 </table>
 
-### **Synthesis with Speed Augmentation (todo)**
+### **Synthesis with Speed Augmentation**
 <table>
   <tr>
     <th style="width: 24%;">Input Score MIDI</th>
