@@ -1,0 +1,3 @@
+audio_path: /work/ATEPP/../ATEPP-audio/Wolfgang_Amadeus_Mozart/Piano_Sonata_No._2_in_F_Major,_K._280/II._Adagio/9.mp3
+file_idx: 237
+chunk_idx: 6

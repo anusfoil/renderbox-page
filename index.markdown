@@ -227,69 +227,95 @@ For more details, refer to the manuscript:
     <th style="width: 24%;">Output 2</th>
   </tr>
   <tr>
-      <td><audio controls><source src="static/upper/perf_style/1/Gould/gt_synthmid.wav" type="audio/wav"></audio><br>
-      <em>Beethoven Piano Sonata No.2 in A, Op.2 No.2, 3. Scherzo (Allegretto)</em></td>
+      <td><audio controls><source src="static/upper/perf_style/performer/1/Gould/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <em>Beethoven Piano Sonata No.2 in A, Op.2 No.2, 4. Rondo (Grazioso)</em></td>
       <td>In the style of Glenn Gould</td>
-      <td><audio controls><source src="static/upper/perf_style/1/Gould/output.wav" type="audio/wav"></audio></td>
-      <td>In the style of Daniel Barenboim</td>
-      <td><audio controls><source src="static/upper/perf_style/1/Barenboim/output.wav" type="audio/wav"></audio></td>
+      <td><audio controls><source src="static/upper/perf_style/performer/1/Gould/output.wav" type="audio/wav"></audio></td>
+      <td>In the style of Pierre-Laurent Aimard</td>
+      <td><audio controls><source src="static/upper/perf_style/performer/1/Aimard/output.wav" type="audio/wav"></audio></td>
   </tr>
   <tr>
-      <td><audio controls><source src="static/upper/perf_style/10/Gieseking/gt_synthmid.wav" type="audio/wav"></audio><br>
-      <em>Schubert Piano Sonata No.17 in D, D.850/3. Scherzo (Allegro_vivace)</em></td>
+      <td><audio controls><source src="static/upper/perf_style/performer/27/Zimerman/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <em>Maurice Ravel, Valses nobles et sentimentales, M.61</em></td>
+      <td>In the style of Krystian Zimerman</td>
+      <td><audio controls><source src="static/upper/perf_style/performer/27/Zimerman/output.wav" type="audio/wav"></audio></td>
+      <td>In the style of Alicia de Larrocha</td>
+      <td><audio controls><source src="static/upper/perf_style/performer/27/Larrocha/output.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+      <td><audio controls><source src="static/upper/perf_style/performer/29/Ashkenazy/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <em>Beethoven Piano Sonata No.27 in E Minor, Op.90, 2. Nicht zu geschwind und sehr singbar vorgetragen</em></td>
+      <td>In the style of Vladimir Ashkenazy</td>
+      <td><audio controls><source src="static/upper/perf_style/performer/29/Ashkenazy/output.wav" type="audio/wav"></audio></td>
+      <td>In the style of Vladimir Horowitz</td>
+      <td><audio controls><source src="static/upper/perf_style/performer/29/Horowitz/output.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+      <td><audio controls><source src="static/upper/perf_style/performer/36/Richter/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <em>Johann Sebastian Bach, Das Wohltemperierte Klavier, Book 2, BWV 870-893: Fugue in E-flat major BWV 876</em></td>
+      <td>In the style of Sviatoslav Richter</td>
+      <td><audio controls><source src="static/upper/perf_style/performer/36/Richter/output.wav" type="audio/wav"></audio></td>
       <td>In the style of Walter Gieseking</td>
-      <td><audio controls><source src="static/upper/perf_style/10/Gieseking/output.wav" type="audio/wav"></audio></td>
-      <td>In the style of Mikhail Pletnev</td>
-      <td><audio controls><source src="static/upper/perf_style/10/Pletnev/output.wav" type="audio/wav"></audio></td>
+      <td><audio controls><source src="static/upper/perf_style/performer/36/Gieseking/output.wav" type="audio/wav"></audio></td>
   </tr>
   <tr>
-      <td><audio controls><source src="static/upper/perf_style/13/Hess/gt_synthmid.wav" type="audio/wav"></audio><br>
-      <em>Beethoven Piano Sonata No.31 in A-Flat Major, Op.110: I. Moderato cantabile molto espressivo</em></td>
-      <td>In the style of Myra Hess</td>
-      <td><audio controls><source src="static/upper/perf_style/13/Hess/output.wav" type="audio/wav"></audio></td>
-      <td>In the style of Dinu Lipatti</td>
-      <td><audio controls><source src="static/upper/perf_style/13/Lipatti/output.wav" type="audio/wav"></audio></td>
-  </tr>
-  <tr>
-      <td><audio controls><source src="static/upper/perf_style/4/Gould/gt_synthmid.wav" type="audio/wav"></audio><br>
-      <em>Bach: Das Wohltemperierte Klavier Book 2: Fugue in D minor, BWV 875</em></td>
-      <td>In the style of Glenn Gould</td>
-      <td><audio controls><source src="static/upper/perf_style/4/Gould/output.wav" type="audio/wav"></audio></td>
+      <td><audio controls><source src="static/upper/perf_style/performer/39/Schiff/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <em>Robert Schumann, Kreisleriana, Op.16, 2. Sehr innig und nicht zu rasch</em></td>
       <td>In the style of András Schiff</td>
-      <td><audio controls><source src="static/upper/perf_style/4/Schiff/output.wav" type="audio/wav"></audio></td>
+      <td><audio controls><source src="static/upper/perf_style/performer/39/Schiff/output.wav" type="audio/wav"></audio></td>
+      <td>In the style of Van Cliburn</td>
+      <td><audio controls><source src="static/upper/perf_style/performer/39/Cliburn/output.wav" type="audio/wav"></audio></td>
+  </tr>
+
+  <tr>
+      <td><audio controls><source src="static/upper/perf_style/direction/6/brisk_lively_light-hearted/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <em>Schubert Piano Sonata No.17 in D, D.850/3. Scherzo, Allegro vivace</em></td>
+      <td>Brisk, lively, light-hearted</td>
+      <td><audio controls><source src="static/upper/perf_style/direction//6/brisk_lively_light-hearted/output.wav" type="audio/wav"></audio></td>
+      <td>Slow, melancholic, with gravity</td>
+      <td><audio controls><source src="static/upper/perf_style/direction/6/slow_melancholic_with gravity/output.wav" type="audio/wav"></audio></td>
   </tr>
   <tr>
-      <td><audio controls><source src="static/upper/perf_style/7/Gulda/gt_synthmid.wav" type="audio/wav"></audio><br>
-      <em>Mozart Piano Sonata No.17 in B-Flat Major, K.570: I. Allegro</em></td>
-      <td>In the style of Friedrich Gulda</td>
-      <td><audio controls><source src="static/upper/perf_style/7/Gulda/output.wav" type="audio/wav"></audio></td>
-      <td>In the style of Murray Perahia</td>
-      <td><audio controls><source src="static/upper/perf_style/7/Perahia/output.wav" type="audio/wav"></audio></td>
+      <td><audio controls><source src="static/upper/perf_style/direction/13/dreamy_flowing_serene/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <em>Beethoven Piano Sonata No.31 in A-Flat Major, Op.110: I. Moderato cantabile molto espressivo
+      <b>(Notice how the command changes the accompaniment balance)</b></em></td>
+      <td>Dreamy, flowing, serene </td>
+      <td><audio controls><source src="static/upper/perf_style/direction/13/dreamy_flowing_serene/output.wav" type="audio/wav"></audio></td>
+      <td>Mechanical, staccato, rigid</td>
+      <td><audio controls><source src="static/upper/perf_style/direction/13/mechanical_staccato_rigid/output.wav" type="audio/wav"></audio></td>
   </tr>
   <tr>
-      <td><audio controls><source src="static/upper/perf_style/24/brisk_lively_light-hearted/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <td><audio controls><source src="static/upper/perf_style/direction/17/fast_energetic_dynamic/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <em>Claude_Debussy, Préludes, Book 2, L.123/No. 6, Général Lavine - Eccentric</em></td>
+      <td>Fast, energetic, dynamic </td>
+      <td><audio controls><source src="static/upper/perf_style/direction/17/fast_energetic_dynamic/output.wav" type="audio/wav"></audio></td>
+      <td>Slow, sad, clear-phrasing</td>
+      <td><audio controls><source src="static/upper/perf_style/direction/17/slow_sad_clear phrasing/output.wav" type="audio/wav"></audio></td>
+  </tr>
+  <!-- <tr>
+      <td><audio controls><source src="static/upper/perf_style/direction/24/brisk_lively_light-hearted/gt_synthmid.wav" type="audio/wav"></audio><br>
       <em>Beethoven Piano Sonata No.31 in A-Flat Major, Op.110: I. Moderato cantabile molto espressivo</em></td>
       <td>Brisk, lively, light-hearted</td>
-      <td><audio controls><source src="static/upper/perf_style/24/brisk_lively_light-hearted/output.wav" type="audio/wav"></audio></td>
+      <td><audio controls><source src="static/upper/perf_style/direction/24/brisk_lively_light-hearted/output.wav" type="audio/wav"></audio></td>
       <td>Slow, melancholic, with gravity</td>
-      <td><audio controls><source src="static/upper/perf_style/24/slow_melancholic_with gravity/output.wav" type="audio/wav"></audio></td>
+      <td><audio controls><source src="static/upper/perf_style/direction/24/slow_melancholic_with gravity/output.wav" type="audio/wav"></audio></td>
   </tr>
   <tr>
-      <td><audio controls><source src="static/upper/perf_style/32/fast_energetic_dynamic/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <td><audio controls><source src="static/upper/perf_style/direction/32/fast_energetic_dynamic/gt_synthmid.wav" type="audio/wav"></audio><br>
       <em>Beethoven Piano Sonata No.27 in E Minor, Op.90: II. Nicht zu geschwind und sehr singbar vorgetragen</em></td>
       <td>Fast, energetic, dynamic</td>
-      <td><audio controls><source src="static/upper/perf_style/32/fast_energetic_dynamic/output.wav" type="audio/wav"></audio></td>
+      <td><audio controls><source src="static/upper/perf_style/direction/32/fast_energetic_dynamic/output.wav" type="audio/wav"></audio></td>
       <td>Slow, sad, clear phrasing</td>
-      <td><audio controls><source src="static/upper/perf_style/32/slow_sad_clear phrasing/output.wav" type="audio/wav"></audio></td>
+      <td><audio controls><source src="static/upper/perf_style/direction/32/slow_sad_clear phrasing/output.wav" type="audio/wav"></audio></td>
   </tr>
   <tr>
-      <td><audio controls><source src="static/upper/perf_style/33/hurried_rushed_chaotic/gt_synthmid.wav" type="audio/wav"></audio><br>
-      <em>Mozart Piano Sonata No.18 in D Major, K.576: II. Adagio</em></td>
+      <td><audio controls><source src="static/upper/perf_style/direction/33/hurried_rushed_chaotic/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <em>Mozart Piano Sonata No.18 in D Major, K.576: II. Adagio <b>(Note: I actually think the effect of these two prompts are inverted!)</b></em></td>
       <td>Hurried, rushed, chaotic</td>
-      <td><audio controls><source src="static/upper/perf_style/33/hurried_rushed_chaotic/output.wav" type="audio/wav"></audio></td>
+      <td><audio controls><source src="static/upper/perf_style/direction/33/hurried_rushed_chaotic/output.wav" type="audio/wav"></audio></td>
       <td>Steady, deliberate, introspective</td>
-      <td><audio controls><source src="static/upper/perf_style/33/steady_deliberate_introspective/output.wav" type="audio/wav"></audio></td>
-  </tr>
+      <td><audio controls><source src="static/upper/perf_style/direction/33/steady_deliberate_introspective/output.wav" type="audio/wav"></audio></td>
+  </tr> -->
 
 
   <!-- Add 4 more rows here -->

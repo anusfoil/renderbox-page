@@ -1,0 +1,3 @@
+audio_path: /work/ATEPP/../ATEPP-audio/Ludwig_van_Beethoven/Piano_Sonata_No._27_in_E_Minor,_Op._90/II._Nicht_zu_geschwind_und_sehr_singbar_vorgetragen/28.mp3
+file_idx: 459
+chunk_idx: 18

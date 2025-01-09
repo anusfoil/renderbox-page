@@ -1,0 +1,3 @@
+audio_path: /work/ATEPP/../ATEPP-audio/Robert_Schumann/Kreisleriana,_Op._16/II._Sehr_innig_und_nicht_zu_rasch/9.mp3
+file_idx: 30
+chunk_idx: 19

@@ -1,0 +1,3 @@
+audio_path: /work/ATEPP/../ATEPP-audio/Franz_Schubert/Piano_Sonata_No.17_in_D,_D.850/3._Scherzo_(Allegro_vivace)/0.mp3
+file_idx: 131
+chunk_idx: 85

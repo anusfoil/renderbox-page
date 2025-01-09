@@ -1,0 +1,3 @@
+audio_path: /work/ATEPP/../ATEPP-audio/Ludwig_van_Beethoven/Piano_Sonata_No.2_in_A,_Op.2_No.2/4._Rondo_(Grazioso)/5.mp3
+file_idx: 372
+chunk_idx: 28
