@@ -1,0 +1,3 @@
+audio_path: /work/gaps_v1/audio/3w1wc.wav
+file_idx: 19
+chunk_idx: 6

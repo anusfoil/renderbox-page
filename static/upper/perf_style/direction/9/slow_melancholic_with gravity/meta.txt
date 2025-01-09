@@ -1,0 +1,3 @@
+audio_path: /work/bach-violin-dataset/bach-violin/./audio/emil-telmanyi/emil-telmanyi_bwv1003_mov2.wav
+file_idx: 0
+chunk_idx: 0

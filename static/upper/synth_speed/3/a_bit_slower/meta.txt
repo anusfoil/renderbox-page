@@ -1,0 +1,3 @@
+audio_path: /work/asap-dataset/./Ravel/Miroirs/3_Une_Barque/score_augmentations/midi_score_1.49.wav
+file_idx: 402
+chunk_idx: 1

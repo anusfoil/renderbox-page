@@ -1,0 +1,3 @@
+audio_path: /work/musicnet/musicnet_midis/Haydn/2104_op64n5_1/score_augmentations/2104_op64n5_1_0.4.wav
+file_idx: 891
+chunk_idx: 30

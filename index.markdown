@@ -103,13 +103,30 @@ For more details, refer to the manuscript:
     <th style="width: 24%;">Output 2</th>
   </tr>
   <tr>
-    <td><audio controls><source src="static/example2-input.wav" type="audio/wav"></audio><br>
-    <em>Title of the Piece</em></td>
-    <td>A bit slower than the score</td>
-    <td><audio controls><source src="static/example2-output1.wav" type="audio/wav"></audio></td>
-    <td>Considerably slower</td>
-    <td><audio controls><source src="static/example2-output2.wav" type="audio/wav"></audio></td>
+      <td><audio controls><source src="static/upper/synth_speed/1/a_bit_faster/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <em>Haydn, Op.64 No.1</em></td>
+      <td>Direct synthesis, a bit faster</td>
+      <td><audio controls><source src="static/upper/synth_speed/1/a_bit_faster/output.wav" type="audio/wav"></audio></td>
+      <td>slightly slower, synthesis</td>
+      <td><audio controls><source src="static/upper/synth_speed/1/a_bit_slower/output.wav" type="audio/wav"></audio></td>
   </tr>
+  <tr>
+      <td><audio controls><source src="static/upper/synth_speed/2/a_bit_faster/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <em>Légende - Ernest Shand</em></td>
+      <td>A bit faster than score, direct synthesis</td>
+      <td><audio controls><source src="static/upper/synth_speed/2/a_bit_faster/output.wav" type="audio/wav"></audio></td>
+      <td>Synthesis, much faster</td>
+      <td><audio controls><source src="static/upper/synth_speed/2/much_faster/output.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+      <td><audio controls><source src="static/upper/synth_speed/3/a_bit_faster/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <em>Ravel, Miroirs, Une Barque</em></td>
+      <td>Direct synthesis, a bit faster</td>
+      <td><audio controls><source src="static/upper/synth_speed/3/a_bit_faster/output.wav" type="audio/wav"></audio></td>
+      <td>Synthesis, a bit slower</td>
+      <td><audio controls><source src="static/upper/synth_speed/3/a_bit_slower/output.wav" type="audio/wav"></audio></td>
+  </tr>
+
   <!-- Add 4 more rows here -->
 </table>
 
@@ -292,6 +309,39 @@ For more details, refer to the manuscript:
       <td>Slow, sad, clear-phrasing</td>
       <td><audio controls><source src="static/upper/perf_style/direction/17/slow_sad_clear phrasing/output.wav" type="audio/wav"></audio></td>
   </tr>
+  <tr>
+      <td><audio controls><source src="static/upper/perf_style/direction/0/flowing_calm_well-phrased/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <em>David Russell: Rondeña - Regino Sainz de la Maza</em></td>
+      <td>Flowing, Calm, Well-Phrased</td>
+      <td><audio controls><source src="static/upper/perf_style/direction/0/flowing_calm_well-phrased/output.wav" type="audio/wav"></audio></td>
+      <td>Jerky, Uneven, Unpredictable</td>
+      <td><audio controls><source src="static/upper/perf_style/direction/0/jerky_uneven_unpredictable/output.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+      <td><audio controls><source src="static/upper/perf_style/direction/9/brisk_lively_light-hearted/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <em>Bach BWV1003 Mvt.2</em></td>
+      <td>Brisk, Lively, Light-Hearted</td>
+      <td><audio controls><source src="static/upper/perf_style/direction/9/brisk_lively_light-hearted/output.wav" type="audio/wav"></audio></td>
+      <td>Slow, Melancholic, With Gravity</td>
+      <td><audio controls><source src="static/upper/perf_style/direction/9/slow_melancholic_with gravity/output.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+      <td><audio controls><source src="static/upper/perf_style/direction/16/flat_emotionless_robotic/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <em>David Russell: Rondeña - Regino Sainz de la Maza</em></td>
+      <td>Flat, Emotionless, Robotic</td>
+      <td><audio controls><source src="static/upper/perf_style/direction/16/flat_emotionless_robotic/output.wav" type="audio/wav"></audio></td>
+      <td>Romantic, Expressive, Lush</td>
+      <td><audio controls><source src="static/upper/perf_style/direction/16/romantic_expressive_lush/output.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+      <td><audio controls><source src="static/upper/perf_style/direction/20/hurried_rushed_chaotic/gt_synthmid.wav" type="audio/wav"></audio><br>
+      <em>Bach BWV1006 Mvt.7</em></td>
+      <td>Hurried, Rushed, Chaotic</td>
+      <td><audio controls><source src="static/upper/perf_style/direction/20/hurried_rushed_chaotic/output.wav" type="audio/wav"></audio></td>
+      <td>Steady, Deliberate, Introspective</td>
+      <td><audio controls><source src="static/upper/perf_style/direction/20/steady_deliberate_introspective/output.wav" type="audio/wav"></audio></td>
+  </tr>
+
   <!-- <tr>
       <td><audio controls><source src="static/upper/perf_style/direction/24/brisk_lively_light-hearted/gt_synthmid.wav" type="audio/wav"></audio><br>
       <em>Beethoven Piano Sonata No.31 in A-Flat Major, Op.110: I. Moderato cantabile molto espressivo</em></td>

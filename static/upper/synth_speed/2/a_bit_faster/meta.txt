@@ -1,0 +1,3 @@
+audio_path: /work/gaps_v1/score-midi/qf1wc/score_augmentations/qf1wc_1.74.wav
+file_idx: 126
+chunk_idx: 8

@@ -1,3 +1,0 @@
-audio_path: /work/ATEPP/../ATEPP-audio/Wolfgang_Amadeus_Mozart/Piano_Sonata_No._18_in_D,_K.576/2._Adagio/30.mp3
-file_idx: 174
-chunk_idx: 4

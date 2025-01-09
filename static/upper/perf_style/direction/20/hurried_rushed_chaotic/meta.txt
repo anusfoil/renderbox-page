@@ -1,0 +1,3 @@
+audio_path: /work/bach-violin-dataset/bach-violin/./audio/oliver-colbentson/oliver-colbentson_bwv1006_mov7.wav
+file_idx: 13
+chunk_idx: 5
