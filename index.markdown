@@ -8,14 +8,14 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1em 0;
 }
 </style>
-
+<!-- 
 <div class="author-details">
   <div class="author-names">Huan Zhang<sup>1</sup>, Akira Maezawa<sup>2</sup>, Simon Dixon<sup>1</sup></div>
   <div class="affiliations">
     <sup>1</sup>Centre for Digital Music, Queen Mary University of London<br>
     <sup>2</sup>Yamaha Corporation
   </div>
-</div>
+</div> -->
 
 ## Introduction 🎶
 
@@ -23,8 +23,8 @@ Welcome to the official page for **RenderBox: Expressive Performance Rendering w
 
 Our curriculum-based paradigm spans a wide spectrum of tasks, from plain synthesis to expressive rendering, offering control over factors like speed, mistakes, and style diversity. This approach bridges symbolic scores and natural language, making performance rendering more explainable and accessible.
 
-For more details, refer to the manuscript:
-[RenderBox: Expressive Performance Rendering with Text Control (PDF)](https://example-link-to-your-manuscript.pdf).
+<!-- For more details, refer to the manuscript: -->
+<!-- [RenderBox: Expressive Performance Rendering with Text Control (PDF)](https://example-link-to-your-manuscript.pdf). -->
 
 <!-- figure on paper -->
 <div style="text-align: center;">
@@ -377,7 +377,37 @@ For more details, refer to the manuscript:
   <!-- Add 4 more rows here -->
 </table>
 
+---
+## Hunting for Dinu Lipatti's Lost Recordings
 
+I recently came across [this post](https://www.dinulipatti.org/dinu-lipatti-the-hunt-for-lost-recordings-en-a120) detailing the challenges in uncovering Dinu Lipatti's lost recordings. The limited scope of Lipatti’s repertoire on record—just over three hours of playing time—is a poignant reminder of the brevity of his life and career, tragically cut short when he passed away at the age of 33. 
+
+While no technology can fully recreate Lipatti’s unparalleled interpretations, RenderBox offers a humble opportunity to imagine and revive his sound. By learning from the stylistic nuances of his existing recordings, this project aims to honor his legacy and provide listeners with a glimpse of what might have been.
+
+In this section we attempted some rough full-piece rendering prompted by his name, by simple concatenation of the generated outputs, without specific segment-wise prompting and mastering. In the future, to enable more refined full-piece output that serves the purpose of reviving the sound of last-generation of pianists, we should improve the model with context conditioning (for better transitions), better tempo inference and some mastering compared to the following prototypes. 
+
+&nbsp;
+
+<table>
+  <tr>
+    <th style="width: 14%;">Text Prompt</th>
+    <th style="width: 24%;">Output</th>
+  </tr>
+  <tr>
+      <td>Piano, expressive performance in the style of Dinu Lipatti, Bach, considerably slower</td>
+      <td><audio controls><source src="static/lipatti/bwv_868_prelude.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+      <td>Piano, expressive performance in the style of Dinu Lipatti, Beethoven sonata, Allegretto, a bit faster</td>
+      <td><audio controls><source src="static/lipatti/beethoven_16_3.wav" type="audio/wav"></audio></td>
+  </tr>
+  <tr>
+      <td>Piano, expressive performance in the style of Dinu Lipatti, Schumann, Kreisleriana, at the same tempo</td>
+      <td><audio controls><source src="static/lipatti/schumann_Kreisleriana_3.wav" type="audio/wav"></audio></td>
+  </tr>
+
+
+</table>
 
 ---
 
@@ -415,6 +445,6 @@ The **RenderBox** project and dataset contain copyrighted material and are distr
 - The dataset or parts of it may not be sold, leased, published, or distributed without prior written permission.
 - All publications or derivative works using RenderBox must clearly credit and cite the project.
 
-Queen Mary University of London and the contributing authors disclaim any liability for errors in the dataset or damage arising from its use. Terms of use are subject to change by the administrators.
+<!-- Queen Mary University of London and the contributing authors disclaim any liability for errors in the dataset or damage arising from its use. Terms of use are subject to change by the administrators. -->
 
 ---
